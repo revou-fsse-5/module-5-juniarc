@@ -1,0 +1,17 @@
+@import './fonts/font.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.detail-section, .chart-section, .register-section, .login-section {
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.delete-modal, .checkout-modal {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.15);
+}
