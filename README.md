@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/lwXCnyMv)
+# How To Run Script Test
+
+```npm run test```
+
+# Unit Test File List
+
+1. Components unit test in:  **src/componenTest**
+2. Async function, hooks unit test in every folder in: **src/states/**

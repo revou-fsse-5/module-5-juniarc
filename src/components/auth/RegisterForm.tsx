@@ -57,6 +57,7 @@ function RegisterForm({ handleSubmit }: RegisterFormType) {
 							Name
 						</label>
 						<Field
+							id="name"							
 							name="name"
 							type="text"
 							placeholder="Please enter your name"
@@ -69,10 +70,11 @@ function RegisterForm({ handleSubmit }: RegisterFormType) {
 						)}
 					</div>
 					<div className="flex flex-col relative w-full">
-						<label htmlFor="email" className="font-bold mb-2">
+						<label htmlFor="email" className="font-bold mb-2" aria-labelledby='Email'>
 							Email
 						</label>
 						<Field
+							id="email"
 							name="email"
 							type="text"
 							placeholder="Please enter your email"
@@ -85,10 +87,11 @@ function RegisterForm({ handleSubmit }: RegisterFormType) {
 						)}
 					</div>
 					<div className="flex flex-col relative w-full">
-						<label htmlFor="password" className="font-bold mb-2">
+						<label htmlFor="password" className="font-bold mb-2" aria-labelledby='Password'>
 							Password
 						</label>
 						<Field
+							id="password"
 							name="password"
 							type="password"
 							placeholder="Please enter your password"
@@ -101,10 +104,11 @@ function RegisterForm({ handleSubmit }: RegisterFormType) {
 						)}
 					</div>
 					<div className="flex flex-col relative w-full">
-						<label htmlFor="confirmPassword" className="font-bold mb-2">
+						<label htmlFor="confirmPassword" className="font-bold mb-2" aria-labelledby='Confirm Password'>
 							Confirm Password
 						</label>
 						<Field
+							id="confirmPassword"
 							name="confirmPassword"
 							type="password"
 							placeholder="Please enter your confirm password"

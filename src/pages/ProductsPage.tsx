@@ -36,7 +36,7 @@ function ProductsPage({ categories } : ProductsPageType) {
                 <CategorySidebar categories={categories}/>
             </div>
 			<section className='min-h-screen w-full'>
-				<h1 className='font-bold text-5xl mb-5'>{id ? category.name : "All Products"}</h1>
+				<h1 className='font-bold text-5xl mb-5' data-testid='headingProductsPage'>{id ? category.name : "All Products"}</h1>
                 <ProductList products={products}/>
 			</section>
 		</section>

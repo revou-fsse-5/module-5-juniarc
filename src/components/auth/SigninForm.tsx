@@ -41,6 +41,7 @@ function SigninForm({ handleSubmit }: SigninFormType) {
 							Email
 						</label>
 						<Field
+							id="email"
 							name="email"
 							type="text"
 							placeholder="Please enter your email"
@@ -57,6 +58,7 @@ function SigninForm({ handleSubmit }: SigninFormType) {
 							Password
 						</label>
 						<Field
+							id="password"
 							name="password"
 							type="password"
 							placeholder="Please enter your password"

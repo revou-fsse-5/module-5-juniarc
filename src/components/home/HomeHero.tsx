@@ -8,7 +8,7 @@ function HomeHero() {
         <h1 className="text-black font-black text-5xl">
           Where Every Find Is A Treasure
         </h1>
-        <p>
+        <p data-testid="heroText">
           Experience the thrill of discovering exceptional and unique items. At
           Urban, every product is a hidden gem, offering you quality and value
           with every purchase.
